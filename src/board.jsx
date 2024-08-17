@@ -201,7 +201,7 @@ class Board extends Component {
     await sleep(500);
 
     // Determine whether to make a mistake
-    let makeMistake = Math.random() < 0.10;
+    let makeMistake = Math.random() < 0.01;
     let obj;
     if (makeMistake) {
       // If making a mistake, choose a random move
